@@ -25,3 +25,16 @@ typeof is_undefined; // El resultado es 'undefined'
 // Para comprobar que null y undefined son diferentes.
 null == undefined; // true, pues ambos hacen referencia a la falta de dato.
 null === undefined; // false, pues mientras que uno tiene referencia aunque nula, el otro no ha llegado a ser inicializado.
+
+// Lists and maps
+
+let list_names = ["Jhon", "James", "Zack"];
+console.log(list_names);
+// Añadir un elemento a una lista
+list_names.push("Keith");
+console.log(list_names);
+
+let map_data = { name: "Jhon", surename: "Smith" };
+// Añadir un elemento a un mapa
+map_data["Zack"] = "Borg";
+console.log(map_data);
