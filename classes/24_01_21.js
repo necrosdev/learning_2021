@@ -88,6 +88,7 @@ let dict = {
   9: "asd",
   qwe: "qwe",
 };
+
 console.log(dict, typeof dict);
 console.log(dict[9], typeof dict[9]);
 
